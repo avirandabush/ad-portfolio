@@ -1,0 +1,36 @@
+{
+    "ios_button": "iOS",
+    "android_button": "Android",
+    "reactJS_button": "ReactJS",
+    "details_button": "Details",
+
+    "author_name": "Aviran Dabush",
+    "author_title": "Frontend Developer",
+    "author_desc": "A showcase of my projects, technical skills, and personal background.",
+
+    "loading_ios": "Loading iOS Projects...",
+    "error_loading_ios": "Failed to load iOS projects.",
+
+    "loading_android": "Loading Android Projects...",
+    "error_loading_android": "Failed to load Android projects.",
+
+    "loading_reactJS": "Loading ReactJS Projects...",
+    "error_loading_reactJS": "Failed to load ReactJS projects.",
+
+    "details_title": "About Me",
+    "details_p1": "Hi, my name is Aviran Dabush. I'm an iOS developer with over two years of experience in mobile development.",
+    "details_p2": "I also practice Android and web development in my free time.",
+    "details_p3": "I'm passionate about learning new technologies, improving my skills, and growing professionally.",
+
+    "download_title": "Click below to view my full CV:",
+    "download_button": "Download CV",
+
+    "no_data_title":  "No Data",
+    "no_data_desc": "There are no projects to display.",
+
+    "error_play_video": "Video play failed:",
+    "visit_git": "Visit GitHub",
+    "view_code": "View Project's Code",
+
+    "footer_title": "Aviran Dabush. All rights reserved."
+}

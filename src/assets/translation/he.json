@@ -1,0 +1,36 @@
+{
+  "ios_button": "iOS",
+  "android_button": "אנדרואיד",
+  "reactJS_button": "ריאקט",
+  "details_button": "אודות",
+
+  "author_name": "אבירן דבש",
+  "author_title": "מפתח פרונטאנד",
+  "author_desc": "פרוייקטים אישיים, כישורים טכניים וקורות חיים.",
+
+  "loading_ios": "טוען פרויקטים ל-iOS...",
+  "error_loading_ios": "אירעה שגיאה בטעינת פרויקטים ל-iOS.",
+
+  "loading_android": "טוען פרויקטים לאנדרואיד...",
+  "error_loading_android": "אירעה שגיאה בטעינת פרויקטים לאנדרואיד.",
+
+  "loading_reactJS": "טוען פרויקטים של ReactJS...",
+  "error_loading_reactJS": "אירעה שגיאה בטעינת פרויקטים של ReactJS.",
+
+  "details_title": "אודות",
+  "details_p1": "שמי אבירן דבוש, אני מפתח iOS עם מעל שנתיים נסיון.",
+  "details_p2": "בזמני הפנוי אני מפתח אתרי אינטרנט ואפליקציות לאנדרואיד.",
+  "details_p3": "אוהב ללמוד, לפתח, ולהתקדם.",
+
+  "download_title": "לחצו להורדת קורות החיים",
+  "download_button": "הורדה",
+
+  "no_data_title": "אין נתונים",
+  "no_data_desc": "אין פרויקטים להצגה.",
+
+  "error_play_video": "הפעלת הוידאו נכשלה",
+  "visit_git": "לביקור בחשבון הגיט שלי",
+  "view_code": "הפרוייקט בגיטהאב",
+
+  "footer_title": "אבירן דבוש. כל הזכויות שמורות."
+}

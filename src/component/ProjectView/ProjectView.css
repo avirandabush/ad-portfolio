@@ -1,0 +1,43 @@
+.project-view-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 120px);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-cell {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  pointer-events: none;
+}
+
+.center {
+  width: 40%;
+  left: 30%;
+  opacity: 1;
+  z-index: 3;
+  pointer-events: auto;
+}
+
+.left {
+  width: 30%;
+  left: 0;
+  opacity: 0.5;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.right {
+  width: 30%;
+  left: 70%;
+  opacity: 0.5;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.hidden {
+  display: none;
+}

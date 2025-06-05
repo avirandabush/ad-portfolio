@@ -1,0 +1,19 @@
+.home-container h1,
+h2,
+h3 {
+    margin: 3px;
+    font-weight: 200;
+}
+
+.home-container h2 {
+    font-size: 22px;
+}
+
+.home-container h3 {
+    font-size: 15px;
+}
+
+.home-logo {
+    width: 60%;
+    border-radius: 50%;
+}

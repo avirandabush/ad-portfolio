@@ -1,0 +1,21 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+.btn-container {
+  position: fixed;
+  bottom: 20px;
+}
