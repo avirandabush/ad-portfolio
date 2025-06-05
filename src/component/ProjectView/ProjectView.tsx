@@ -4,6 +4,8 @@ import { useLanguage } from '../../constants/LanguageContext'
 import ProjectCell from '../ProjectCell/ProjectCell'
 import Project from '../../constants/ProjectInterface'
 import videoLogo from '../../assets/video/video-logo.mp4'
+import leftArrow from '../../assets/icons/left-arrow.png'
+import rightArrow from '../../assets/icons/right-arrow.png'
 
 interface Props {
   projects: Project[]
@@ -50,6 +52,8 @@ const ProjectView = ({ projects }: Props) => {
 
   return (
     <div className="project-view-container">
+      <div className='arrow-btn left-arrow'><img src={leftArrow} /></div>
+      <div className='arrow-btn right-arrow'><img src={rightArrow} /></div>
       {projects.map((project, index) => {
         const position = getPosition(index)
         return (

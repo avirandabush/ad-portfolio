@@ -41,3 +41,31 @@
 .hidden {
   display: none;
 }
+
+.arrow-btn {
+  font-size: larger;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.left-arrow {
+  left: 30px;
+}
+
+.right-arrow {
+  right: 30px;
+}
+
+.arrow-btn img {
+  width: 85px;
+  height: 88px;
+}
+
+@media (max-width: 768px) {
+  .arrow-btn img {
+    width: 45px;
+    height: 48px;
+  }
+}
