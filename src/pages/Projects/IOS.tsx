@@ -17,7 +17,7 @@ function IOS() {
       setError(null)
 
       try {
-        const fetched = await fetchProjectsFromCollection("projects")
+        const fetched = await fetchProjectsFromCollection("iOS")
         setProjects(fetched)
       } catch (err) {
         setError(t('error_loading_ios'))
