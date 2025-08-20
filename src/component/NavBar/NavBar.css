@@ -1,3 +1,4 @@
+/* NavBar.css */
 .nav-bar-view {
   position: fixed;
   top: 0;
@@ -85,49 +86,4 @@ button:hover {
 .nav-bar-view.rtl .nav-right {
   right: auto;
   left: 30px;
-}
-
-.hamburger {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 1001;
-}
-
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .nav-left {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #242424;
-    z-index: 1000;
-  }
-
-  .nav-left.show {
-    display: flex;
-  }
-
-  .nav-left li {
-    margin: 10px 0;
-    text-align: center;
-  }
-
-  .nav-right {
-    position: absolute;
-    top: 14px;
-    right: 20px;
-  }
 }
