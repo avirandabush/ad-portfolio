@@ -19,8 +19,10 @@ function Android() {
       try {
         const fetched = await fetchProjectsFromCollection("Android")
         setProjects(fetched)
+        console.log("Android projects: ", fetched)
       } catch (err) {
         setError(t('error_loading_android'))
+        console.log("Failed to fetch android projects: ", error)
       } finally {
         setLoading(false)
       }

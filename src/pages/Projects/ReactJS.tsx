@@ -19,8 +19,10 @@ function ReactJS() {
       try {
         const fetched = await fetchProjectsFromCollection("Web")
         setProjects(fetched)
+        console.log("Web projects: ", fetched)
       } catch (err) {
         setError(t('error_loading_reactJS'))
+        console.log("Failed to fetch web projects: ", error)
       } finally {
         setLoading(false)
       }

@@ -19,8 +19,10 @@ function IOS() {
       try {
         const fetched = await fetchProjectsFromCollection("iOS")
         setProjects(fetched)
+        console.log("iOS projects: ", fetched)
       } catch (err) {
         setError(t('error_loading_ios'))
+        console.log("Failed to fetch iOS projects: ", error)
       } finally {
         setLoading(false)
       }
