@@ -17,7 +17,7 @@ function Android() {
       setError(null)
 
       try {
-        const fetched = await fetchProjectsFromCollection("projectss")
+        const fetched = await fetchProjectsFromCollection("Android")
         setProjects(fetched)
       } catch (err) {
         setError(t('error_loading_android'))

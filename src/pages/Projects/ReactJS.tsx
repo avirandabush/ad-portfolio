@@ -17,7 +17,7 @@ function ReactJS() {
       setError(null)
 
       try {
-        const fetched = await fetchProjectsFromCollection("projects")
+        const fetched = await fetchProjectsFromCollection("Web")
         setProjects(fetched)
       } catch (err) {
         setError(t('error_loading_reactJS'))
