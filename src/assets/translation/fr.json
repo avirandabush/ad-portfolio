@@ -1,0 +1,36 @@
+{
+  "ios_button": "iOS",
+  "android_button": "Android",
+  "reactJS_button": "ReactJS",
+  "details_button": "Détails",
+
+  "author_name": "Aviran Dabush",
+  "author_title": "Développeur Frontend",
+  "author_desc": "Une vitrine de mes projets, compétences techniques et parcours personnel.",
+
+  "loading_ios": "Chargement des projets iOS...",
+  "error_loading_ios": "Échec du chargement des projets iOS.",
+
+  "loading_android": "Chargement des projets Android...",
+  "error_loading_android": "Échec du chargement des projets Android.",
+
+  "loading_reactJS": "Chargement des projets ReactJS...",
+  "error_loading_reactJS": "Échec du chargement des projets ReactJS.",
+
+  "details_title": "À propos de moi",
+  "details_p1": "Bonjour, je m'appelle Aviran Dabush. Je suis développeur iOS avec plus de deux ans d'expérience dans le développement mobile.",
+  "details_p2": "Je pratique également le développement Android et web pendant mon temps libre.",
+  "details_p3": "Je suis passionné par l'apprentissage de nouvelles technologies, l'amélioration de mes compétences et le développement professionnel.",
+
+  "download_title": "Cliquez ci-dessous pour consulter mon CV complet :",
+  "download_button": "Télécharger le CV",
+
+  "no_data_title": "Aucune donnée",
+  "no_data_desc": "Aucun projet à afficher.",
+
+  "error_play_video": "Échec de la lecture vidéo :",
+  "visit_git": "Voir sur GitHub",
+  "view_code": "Voir le code du projet",
+
+  "footer_title": "Aviran Dabush. Tous droits réservés."
+}

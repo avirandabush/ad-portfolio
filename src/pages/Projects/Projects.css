@@ -1,0 +1,8 @@
+.loading,
+.error {
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 32px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
