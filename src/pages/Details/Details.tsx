@@ -1,6 +1,6 @@
 import './Details.css'
 import { useLanguage } from '../../constants/LanguageContext'
-import CV from '../../assets/files/AviranDabushCV.pdf'
+import CV from '../../assets/files/Aviran_Dabush_iOS_Developer_CV.pdf'
 
 const Details = () => {
   const { t } = useLanguage()
@@ -8,7 +8,7 @@ const Details = () => {
   const downloadCV = () => {
     const link = document.createElement('a')
     link.href = CV
-    link.download = 'Aviran_Dabush_CV.pdf'
+    link.download = 'Aviran_Dabush_iOS_Developer_CV.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
